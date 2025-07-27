@@ -1,0 +1,6 @@
+/target
+/.idea
+Cargo.lock
+/assets/models
+/assets/sounds
+/assets/textures

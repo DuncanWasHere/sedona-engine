@@ -1,0 +1,15 @@
+[package]
+name = "sedona_settings"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ahash = "0.8.12"
+ahash_macro = "0.1.2"
+glam = "0.30.3"
+log = "0.4.27"
+toml = "0.9.2"
+
+sedona_settings_macros = { path = "macros" }
+sedona_utils = { path = "../sedona_utils" }
+uuid = { version = "1.17.0", features = ["v4"] }

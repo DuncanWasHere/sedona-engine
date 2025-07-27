@@ -1,0 +1,9 @@
+[package]
+name = "game_settings"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ahash_macro = "0.1.2"
+
+sedona_settings = { path = "../../sedona_core/sedona_settings" }

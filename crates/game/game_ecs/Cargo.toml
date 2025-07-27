@@ -1,0 +1,30 @@
+[package]
+name = "game_ecs"
+version = "0.1.0"
+edition = "2024"
+
+[build-dependencies]
+sedona_ecs = { path = "../../sedona_core/sedona_ecs" }
+
+[dependencies]
+bitflags = { version = "2.9.1", features = ["bytemuck", "serde"] }
+glam = { version = "0.30.3", features = ["bytemuck", "serde"] }
+gltf = { version = "1.4.1", features = ["image", "import", "KHR_lights_punctual", "KHR_materials_emissive_strength", "KHR_materials_unlit", "KHR_materials_ior", "KHR_materials_transmission", "names"] }
+log = "0.4.27"
+rayon = "1.10.0"
+ron = "0.10.1"
+serde = { version = "1.0.219", features = ["derive"] }
+
+sedona_app = { path = "../../sedona_core/sedona_app" }
+sedona_audio = { path = "../../sedona_core/sedona_audio" }
+sedona_ecs = { path = "../../sedona_core/sedona_ecs" }
+sedona_event = { path = "../../sedona_core/sedona_event" }
+sedona_io = { path = "../../sedona_core/sedona_io" }
+sedona_physics = { path = "../../sedona_core/sedona_physics" }
+sedona_renderer = { path = "../../sedona_core/sedona_renderer" }
+sedona_resource = { path = "../../sedona_core/sedona_resource" }
+sedona_settings = { path = "../../sedona_core/sedona_settings" }
+sedona_utils = { path = "../../sedona_core/sedona_utils" }
+sedona_window = { path = "../../sedona_core/sedona_window" }
+
+game_settings = { path = "../game_settings" }

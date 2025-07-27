@@ -1,0 +1,10 @@
+[package]
+name = "sedona_window"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+winit = { version = "0.30.8", features = ["android-native-activity"] }
+
+sedona_io = { path = "../../sedona_core/sedona_io" }
+sedona_settings = { path = "../../sedona_core/sedona_settings" }

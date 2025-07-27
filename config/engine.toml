@@ -1,0 +1,57 @@
+[general]
+base_tick_rate_scale = 1.0
+max_ticks_per_frame = 5
+
+[resolution]
+auto_resolution = false
+width = 854
+height = 480
+
+[window]
+width = 1920
+height = 1080
+fullscreen = true
+icon = "assets/textures/icon/icon.png"
+title = "BIG BERG"
+
+[renderer]
+initial_render_object_capacity = 1024
+
+[textures]
+filter_textures = false
+
+[shadow_map]
+cascade_count = 3
+resolution = 1024
+
+[sky]
+use_pbr = true
+
+[shader_paths]
+pre_pass = "assets/shaders/default/pre_pass.wgsl"
+shadow = "assets/shaders/default/shadow.wgsl"
+
+pbr = "assets/shaders/default/material/pbr.wgsl"
+unlit = "assets/shaders/default/material/unlit.wgsl"
+
+blit = "assets/shaders/default/blit/blit.wgsl"
+blit_depth = "assets/shaders/default/blit/blit_depth.wgsl"
+
+sky_gradient = "assets/shaders/default/sky/sky_gradient.wgsl"
+sky_box = "assets/shaders/default/sky/sky_box.wgsl"
+sky_pbr = "assets/shaders/default/sky/sky_pbr.wgsl"
+sun = "assets/shaders/default/sky/sun.wgsl"
+moon = "assets/shaders/default/sky/moon.wgsl"
+star_map = "assets/shaders/default/sky/star_map.wgsl"
+cloud ="assets/shaders/default/sky/cloud.wgsl"
+
+bloom_composite = "assets/shaders/default/post_process/bloom_composite.wgsl"
+bloom_extract = "assets/shaders/default/post_process/bloom_extract.wgsl"
+blur = "assets/shaders/default/post_process/blur.wgsl"
+depth_of_field = "assets/shaders/default/post_process/depth_of_field.wgsl"
+lens_flare = "assets/shaders/default/post_process/lens_flare.wgsl"
+luminence = "assets/shaders/default/post_process/luminence.wgsl"
+screen_space_ao ="assets/shaders/default/post_process/screen_space_ao.wgsl"
+screen_space_reflection = "assets/shaders/default/post_process/screen_space_reflection.wgsl"
+sceen_space_shadow = "assets/shaders/default/post_process/screen_space_shadow.wgsl"
+tone_map = "assets/shaders/default/post_process/tone_map.wgsl"

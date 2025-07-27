@@ -1,0 +1,21 @@
+[package]
+name = "sedona_renderer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bitflags = { version = "2.9.1", features = ["bytemuck", "serde"] }
+bytemuck = { version = "1.23.1", features = ["derive"] }
+glam = { version = "0.30.4", features = ["bytemuck", "serde"] }
+log = "0.4.27"
+pollster = "0.4.0"
+serde = { version = "1.0.219", features = ["derive"] }
+slab = "0.4.10"
+wgpu = { version = "26.0.1", features = ["serde", "vulkan"] }
+winit = { version = "0.30.8" }
+
+sedona_io = { path = "../sedona_io" }
+sedona_renderer_macros = { path = "macros" }
+sedona_settings = { path = "../sedona_settings" }
+sedona_window = { path = "../sedona_window" }
+thiserror = "1.0.69"

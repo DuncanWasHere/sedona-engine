@@ -1,0 +1,13 @@
+[package]
+name = "sedona_resource"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+log = "0.4.27"
+
+sedona_audio = { path = "../sedona_audio" }
+sedona_io = { path = "../sedona_io" }
+sedona_renderer = { path = "../sedona_renderer" }
+sedona_settings = { path = "../sedona_settings" }
+sedona_window = { path = "../sedona_window" }

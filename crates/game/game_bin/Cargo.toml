@@ -1,0 +1,13 @@
+[package]
+name = "game_bin"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+chrono = "0.4.41"
+env_logger = "0.11.8"
+log = "0.4.27"
+
+game_ecs = { path = "../game_ecs" }
+
+sedona_app = { path = "../../sedona_core/sedona_app" }
